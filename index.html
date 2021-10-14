@@ -1,42 +1,85 @@
 <!doctype html>
-
-<!-- this is a comment for human! -->
-
 <html lang="en">
-<!-- the header starts from here! -->
-<header>
-  <title> Shresth Sagar's Portal </title>
-  <link rel="stylesheet" href="css/master.css">
-  <link rel="faviconicon" href="favicon.ico" type="image/x-icon">
-  <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-  <meta name="vieport" content="width=device-width, initial-scale=1, shrink-to-fir=no">
-  <meta name="name" content="Shrest Sagar's Portal">
-  <meta name="robot" content="noindex, nofollow">
 
-</header>
-<!--Body starts from here-->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Shresth Sagar's Portal</title>
+</head>
 
 <body>
-  <img src="images/banner.jpg" width=75% alt="banner">
-  <h1> This is Shresth Sagar's Portal </h1>
-  <h2> About Me </h2>
-  <p> I am a Web developer and a cyber cybersecurity expert </p>
-  <p> I study in USICT. I study CSE </p>
-  <p> My school was DPS </p>
-  <!-- heading !-->
-  <h2> Credentials and Portfolio </h2>
 
-  <p><a href="resume.html"> My Resume </a> | <a href="http://github.com/ShresthSagar"> My GitHub </a></p>
-  <h2>Contact</h2>
 
-  <p> <a href="mailto:shresthsagar243@gmail.com"> shresthsagar243@gmail.com </p>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shresth Sagar's</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- bg -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" id="home">
+            <div class="carousel-item active">
+                <img src="images/banner.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <h1 class="display-4 text-center my-4">About me</h1>
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Shresth Sagar'st</h5>
+                <p class="card-text">I am a Web developer and a cyber cybersecurity expert
+                    <br>
+                    I study in USICT. I study CSE
+                    <br>
+                    My school was DPS<br>
+                    <a href="mailto:shresthsagar243@gmail.com" class="btn btn-primary">Email</a>
+                    <a href="resume.html" class="btn btn-primary">Check My Resume</a>
+                    <a href="http://github.com/ShresthSagar" class="btn btn-primary">My GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="py-2 bg-primary">
+        <p class="text-center text-light">Copyright (C) 2020 Harrison Kong </p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
-<!--footer starts from here-->
-<footer>
-  <hr>
-  <code>Copyright (C) 2020 Harrison Kong </code>
-</footer>
-<!--footer ends here-->
 
 </html>
