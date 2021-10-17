@@ -1,61 +1,99 @@
 <!doctype html>
-
-<!-- this is a comment for human! -->
-
 <html lang="en">
 
-  <header>
-    <title>Shresth Sagar's Resume</title>
-    <link rel="faviconicon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <meta name = "vieport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name = "name" content="Shrest Sagar's Portal">
-    <meta name = "robot" content="noindex, nofollow">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel="stylesheet" href="css/master.css">
-  </header>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <body>
-    <hr>
+  <title>My Resume</title>
+</head>
 
-    <img src="images/headshot.jpg" alt="Shresth's headshot" width="20%">
+<body>
 
-    <h1>Shresth Sagar</h1>
-    <h4>Web Designer, Mobile App, Website Software Engineer</h4>
 
-    <p>Email: <a href="mailto:shresthsagar243@gmail.com" target="_blank">shresthsagar243@gmail.com</a></p>
-    <!-- don't post physical address, personal phone number or other personal information on the web! -->
 
-    <h2>Portfolio</h2>
-      <h3>GitHub: <a href="https://github.com/ShresthSagar" target="_blank">https://github.com/ShresthSagar</a></h3>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shresth Sagar's</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <h2>Education</h2>
 
-    <h3>University School of Information, Communication and Technology , India</h3>
-    <h4>B.Tech  Computer Science Engineering, CGPA 8.5</h4>
+  <!-- Resume -->
+  <!-- about -->
+  <div class="my-5">
+    <div class="card my-5">
+      <div class="card-body">
+        <img src="images/headshot.jpg" class="img-thumbnail rounded float-start me-2" alt="...">
+        <div class="my-3">
+          <h5 class="card-title">Shresth Sagar'st</h5>
+          <p class="card-text">Web Designer, Mobile App, Website Software Engineer</p>
+          <a href="mailto:shresthsagar243@gmail.com" class="btn btn-primary">Email</a>
+          <a href="http://github.com/ShresthSagar" class="btn btn-primary">My GitHub</a>
+          <br><br>
+          <h5 class="card-title">Education</h5>
+          <p class="card-text">University School of Information, Communication and Technology , India
+            B.Tech Computer Science Engineering, CGPA 8.5</p>
+          <h5 class="card-title">Professional Experiences</h5>
+          <p class="card-text">Subject Matter Expert / Online Instructor<br>
+            Coursera, Mountain View, CA<br>
+            March 2020 - Present<br>
+            <li>Author and publish mobile apps, reusable iOS UI modules</li>
+            <li>Independent computer service contractor</li>
+          </p>
+          <h5 class="card-title">Founder, Software Engineer</h5>
+          <p class="card-text"><strong>skyRoute66, Los Angeles, CA<br>
+              January 2019 - Present</strong>
+            <li>Author and publish mobile apps, reusable iOS UI modules</li>
+            <li>Independent computer service contractor</li>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <h2>Professional Experiences</h2>
 
-    <h3>Subject Matter Expert / Online Instructor</h3>
-    <h4>Coursera, Mountain View, CA</h4>
-    <h5>March 2020 - Present</h5>
-      <ul>
-        <li>Create interactive online IT courses</li>
-        <li>Teach students worldwide</li>
-      </ul>
 
-    <h3>Founder, Software Engineer</h3>
-    <h4>skyRoute66, Los Angeles, CA</h4>
-    <h5>January 2019 - Present</h5>
-      <ul>
-        <li>Author and publish mobile apps, reusable iOS UI modules</li>
-        <li>Independent computer service contractor</li>
-      </ul>
-  </body>
 
-  <footer>
-  <hr>
-  <p><a href="index.html">Back to my portal</a><p>
+  <!-- footer -->
+  <footer class="py-2 bg-primary">
+    <p class="text-center text-light">Copyright (C) 2020 Harrison Kong </p>
   </footer>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+</body>
 
 </html>
